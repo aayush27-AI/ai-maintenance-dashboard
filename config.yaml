@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@company.com
+      name: Admin User
+      password: $2b$12$BOdf8yjrr1sChAY6twggDukewe3pefPm8NHfsxSSJSlg4CuxqOmHO
+      role: admin
+    employee:
+      email: employee@company.com
+      name: Employee User
+      password: $2b$12$jMFVwHynzWjjZCmbg34xvuoQNP.JSaDzwc6xLIGN8Pe29wb8jqhLu
+      role: employee
+
+cookie:
+  name: maintenance_dashboard_cookie
+  key: some_random_signature_key_123
+  expiry_days: 1
+
+preauthorized:
+  emails:
+  - dummy@example.com
